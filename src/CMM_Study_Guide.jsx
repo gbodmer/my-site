@@ -1,6 +1,10 @@
 import { useState } from "react";
 import transformA from "./assets/coordinatetransformations_all.png";
 import transformB from "./assets/Transformationmatrix.png";
+import fk1 from "./assets/forwardkinematiks 1.png";
+import fk2 from "./assets/forwardkinematiks 2.png";
+import fk3 from "./assets/forwardkinematiks 3.png";
+import fk4 from "./assets/forwardkinematiks 4.png";
 
 const topics = [
   {
@@ -119,7 +123,16 @@ FK(pose q, point p, body b):
   return FK(q, j.pp + R(j.v, θ) * (j.pc → p), j.parentBody)
 \`\`\`
 
-**Key insight:** FK gives you a function p(q, p̄) — the world position as a function of the pose. This is the foundation for both animation and IK.`
+**Key insight:** FK gives you a function p(q, p̄) — the world position as a function of the pose. This is the foundation for both animation and IK.
+
+## Images
+![fk1]
+
+![fk2]
+
+![fk3]
+
+![fk4]`
       },
       {
         title: "Poses: Where Do They Come From?",
@@ -961,7 +974,11 @@ function renderContent(text) {
 
   const imageMap = {
     transform1: transformA,
-    transform2: transformB
+    transform2: transformB,
+    fk1: fk1,
+    fk2: fk2,
+    fk3: fk3,
+    fk4: fk4
   };
 
   const flushTable = () => {
