@@ -5,6 +5,16 @@ import fk1 from "./assets/forwardkinematiks 1.png";
 import fk2 from "./assets/forwardkinematiks 2.png";
 import fk3 from "./assets/forwardkinematiks 3.png";
 import fk4 from "./assets/forwardkinematiks 4.png";
+import ik1 from "./assets/inversekinematiks1.png";
+import ik2 from "./assets/inversekinematiks2.png";
+import ik3 from "./assets/inversekinematiks3.png";
+import ik4 from "./assets/inversekinematiks4.png";
+import ik5 from "./assets/inversekinematiks5.png";
+import ik6 from "./assets/inversekinematiks6.png";
+import ik7 from "./assets/inversekinematiks7.png";
+import ik8 from "./assets/inversekinematiks8.png";
+import ik9 from "./assets/inversekinematiks9.png";
+
 
 const topics = [
   {
@@ -225,7 +235,26 @@ Minimize by gradient descent using the Jacobian:
 - Objectives on end-effector orientation (not just position)
 - Multiple end-effector targets
 
-**Applications:** Motion capture retargeting, full-body pose estimation, teleoperation, natural motion authoring, walking controllers`
+**Applications:** Motion capture retargeting, full-body pose estimation, teleoperation, natural motion authoring, walking controllers
+
+## Images
+![ik1]
+
+![ik2]
+
+![ik3]
+
+![ik4]
+
+![ik5]
+
+![ik6]
+
+![ik7]
+
+![ik8]
+
+![ik9]`
       },
       {
         title: "Motion Capture & Data-Driven Methods",
@@ -978,7 +1007,16 @@ function renderContent(text) {
     fk1: fk1,
     fk2: fk2,
     fk3: fk3,
-    fk4: fk4
+    fk4: fk4,
+    ik1: ik1,
+    ik2: ik2,
+    ik3: ik3,
+    ik4: ik4,
+    ik5: ik5,
+    ik6: ik6,
+    ik7: ik7,
+    ik8: ik8,
+    ik9: ik9
   };
 
   const flushTable = () => {
