@@ -14,6 +14,23 @@ import ik6 from "./assets/inversekinematiks6.png";
 import ik7 from "./assets/inversekinematiks7.png";
 import ik8 from "./assets/inversekinematiks8.png";
 import ik9 from "./assets/inversekinematiks9.png";
+import to1 from "./assets/transformations_to1.png";
+import to2 from "./assets/transformations_to2.png";
+import to3 from "./assets/transformations_to3.png";
+import to4 from "./assets/transformations_to4.png";
+import to5 from "./assets/transformations_to5.png";
+import to6 from "./assets/transformations_to6.png";
+import to7 from "./assets/transformations_to7.png";
+import to8 from "./assets/transformations_to8.png";
+import to9 from "./assets/transformations_to9.png";
+import to10 from "./assets/transformations_to10.png";
+import to11 from "./assets/transformations_to11.png";
+import to12 from "./assets/transformations_to12.png";
+import to13 from "./assets/transformations_to13.png";
+import to14 from "./assets/transformations_to14.png";
+import to15 from "./assets/transformations_to15.png";
+import to16 from "./assets/transformations_to16.png";
+import to17 from "./assets/transformations_to17.png";
 
 
 const topics = [
@@ -326,7 +343,42 @@ Where:
 - **Lf** = terminal cost (goal achievement)
 - **Defect** = ẋᵢ − f(xᵢ, uᵢ): zero when dynamics satisfied
 
-**Discretization:** ẋ ≈ (xᵢ − xᵢ₋₁)/h or (xᵢ₊₁ − xᵢ₋₁)/2h`
+**Discretization:** ẋ ≈ (xᵢ − xᵢ₋₁)/h or (xᵢ₊₁ − xᵢ₋₁)/2h
+
+## Images
+![to1]
+
+![to2]
+
+![to3]
+
+![to4]
+
+![to5]
+
+![to6]
+
+![to7]
+
+![to8]
+
+![to9]
+
+![to10]
+
+![to11]
+
+![to12]
+
+![to13]
+
+![to14]
+
+![to15]
+
+![to16]
+
+![to17]`
       },
       {
         title: "Transcription Methods",
@@ -1016,7 +1068,24 @@ function renderContent(text) {
     ik6: ik6,
     ik7: ik7,
     ik8: ik8,
-    ik9: ik9
+    ik9: ik9,
+    to1: to1,
+    to2: to2,
+    to3: to3,
+    to4: to4,
+    to5: to5,
+    to6: to6,
+    to7: to7,
+    to8: to8,
+    to9: to9,
+    to10: to10,
+    to11: to11,
+    to12: to12,
+    to13: to13,
+    to14: to14,
+    to15: to15,
+    to16: to16,
+    to17: to17
   };
 
   const flushTable = () => {
