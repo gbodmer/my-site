@@ -52,6 +52,20 @@ import TO18 from "./assets/TO18.png";
 import TO19 from "./assets/TO19.png";
 import TO20 from "./assets/TO20.png";
 import TO21 from "./assets/TO21.png";
+import PRM1 from "./assets/PRM1.png";
+import PRM2 from "./assets/PRM2.png";
+import PRM3 from "./assets/PRM3.png";
+import PRM4 from "./assets/PRM4.png";
+import PRM5 from "./assets/PRM5.png";
+import PRM6 from "./assets/PRM6.png";
+import PRM7 from "./assets/PRM7.png";
+import PRM8 from "./assets/PRM8.png";
+import PRM9 from "./assets/PRM9.png";
+import PRM10 from "./assets/PRM10.png";
+import PRM11 from "./assets/PRM11.png";
+import PRM12 from "./assets/PRM12.png";
+import PRM13 from "./assets/PRM13.png";
+import PRM14 from "./assets/PRM14.png";
 
 
 const topics = [
@@ -504,46 +518,105 @@ In practice, trajectory optimization with contact constraints uses these to enfo
       },
       {
         title: "Probabilistic Roadmap (PRM)",
-        content: `**Two-phase algorithm:**
+        content: `**Core idea:** build a graph of collision-free configurations in configuration space (C-space), then search that graph when a query arrives.
 
-1. **Offline (roadmap construction):**
+**Why a metric matters:** sampling-based planners need a notion of closeness between configurations.
+- For Euclidean variables, use the Euclidean norm.
+- For mixed variables, use a weighted Lp norm.
+- For orientations, use geodesic distance on SO(3) rather than raw angle differences.
+
+> Nearest(G = (V, E), x) := argmin_{v in V} ||x - v||
+
+**Local planning:** connect two nearby configurations by interpolating between them and checking whether the connection is collision free.
+
+**Two-phase algorithm:**
+1. **Offline roadmap construction**
    - Sample random configurations in C-space
-   - Collision-check each sample (vertex validation)
-   - Connect nearby samples with local planners (edge validation)
-   - Build a graph of collision-free paths
+   - Collision-check each sample
+   - Connect nearby samples with a local planner
+   - Store a graph of feasible motions
+2. **Online search**
+   - Connect the start and goal to the roadmap
+   - Run graph search such as A* or weighted A*
 
-2. **Online (search):**
-   - Connect start/goal to roadmap
-   - Run graph search (A*, weighted A*) to find path
+**PRM*:** use a connection radius of the form r(n) = gamma_PRM(log n / n)^(1/d) for near-neighbor queries.
+- This gives asymptotic optimality.
+- Lazy PRM defers edge collision checking until query time.
 
-**PRM*:** Optimal variant — use radius r(n) = γ(log n / n)^(1/d) for near-node queries → asymptotically optimal.
+**Takeaway:** PRM is a multi-query planner, so the upfront roadmap cost is useful when many queries will reuse the same environment.`
 
-**Lazy PRM:** Defer edge collision checking to query time.
+## Images
+![PRM1]
 
-**Metrics:** Euclidean distance is common; for rotations, use geodesic distance on SO(3).`
+![PRM2]
+
+![PRM3]
+
+![PRM4]
+
+![PRM5]
+
+![PRM6]
+
+![PRM7]
+
+![PRM8]
+
+![PRM9]
+
+![PRM10]
+
+![PRM11]
+
+![PRM12]
+
+![PRM13]
+
+![PRM14]`
       },
       {
         title: "Rapidly-Exploring Random Tree (RRT)",
-        content: `**Single-query algorithm** — no need to explore whole space.
+        content: `**Motivation:** PRM is a multi-query algorithm, but many problems are single-query.
 
 **Basic RRT:**
-1. Sample random config q_rand
-2. Find nearest node q_near in tree
-3. Steer from q_near toward q_rand (step size δ)
-4. If collision-free, add new node and edge
+1. Sample a random configuration q_rand
+2. Find the nearest node q_near in the current tree
+3. Steer from q_near toward q_rand with a step size
+4. If the edge is collision free, add the new node and edge
 
-**RRT*:** Optimal variant:
-- After steering, find all nodes within radius r
-- Connect new node to parent with minimum cost
-- **Rewire:** check if going through new node improves cost for neighbors
+**RRT*:** same basic growth rule, but after adding a node:
+- Search nearby nodes within a radius
+- Choose the best parent with the lowest cost
+- Rewire nearby branches if the new node gives a cheaper path
 
-**RRT-Connect (bidirectional):** Build two trees (start + goal), try to connect them every step. Much faster in practice.
+**RRT-Connect:** grow two trees, one from the start and one from the goal, and try to connect them at every extension step.
 
-**Theoretical properties:**
-- **Probabilistic completeness:** P(finding path) → 1 as samples → ∞
-- **Asymptotic optimality** (RRT*): solution cost → optimal as samples → ∞
+**Properties:**
+- Probabilistic completeness: the chance of finding a feasible path approaches 1 as samples increase
+- Asymptotic optimality: RRT* improves toward the optimal cost as samples increase
 
-**Post-processing:** Smooth initial solutions with random shortcutting or trajectory optimization.`
+**Postprocessing:** initial RRT paths are usually jagged, so random shortcutting or trajectory optimization is used to smooth them.
+
+**Practical summary:** RRT is usually the better fit for single-query planning and narrow, hard-to-explore spaces.`
+      },
+      {
+        title: "Sampling-Based Planning: Properties & Limitations",
+        content: `**Theoretical guarantees:**
+- Probabilistic completeness: if a feasible path exists, the planner finds it with probability approaching 1 as the number of samples grows
+- Asymptotic optimality: the solution cost approaches the optimum as samples go to infinity
+
+**Common limitations:**
+- Narrow passages require low-probability samples
+- Constrained systems can make collision-free sampling hard
+- Kinodynamic and nonholonomic systems cannot be planned purely geometrically
+
+**Kinodynamic planning:** extend the state space to include velocity and acceleration, then plan rollouts of actions directly instead of simple geometric interpolation.
+
+**Active research directions:**
+- Faster planners through parallelization and better use of compute
+- Learning-assisted planning
+- Multi-robot and multi-goal planning
+- Integrated task and motion planning`
       },
       {
         title: "Open-Loop vs Closed-Loop Control",
@@ -1156,6 +1229,20 @@ function renderContent(text) {
     TO11: TO11, TO12: TO12, TO13: TO13, TO14: TO14, TO15: TO15,
     TO16: TO16, TO17: TO17, TO18: TO18, TO19: TO19, TO20: TO20,
     TO21: TO21,
+    PRM1: PRM1,
+    PRM2: PRM2,
+    PRM3: PRM3,
+    PRM4: PRM4,
+    PRM5: PRM5,
+    PRM6: PRM6,
+    PRM7: PRM7,
+    PRM8: PRM8,
+    PRM9: PRM9,
+    PRM10: PRM10,
+    PRM11: PRM11,
+    PRM12: PRM12,
+    PRM13: PRM13,
+    PRM14: PRM14,
   };
 
   const flushTable = () => {
