@@ -66,6 +66,15 @@ import PRM11 from "./assets/PRM11.png";
 import PRM12 from "./assets/PRM12.png";
 import PRM13 from "./assets/PRM13.png";
 import PRM14 from "./assets/PRM14.png";
+import c1 from "./assets/c1.png";
+import c2 from "./assets/c2.png";
+import c3 from "./assets/c3.png";
+import c4 from "./assets/c4.png";
+import c5 from "./assets/c5.png";
+import c6 from "./assets/c6.png";
+import c7 from "./assets/c7.png";
+import c8 from "./assets/c8.png";
+
 
 
 const topics = [
@@ -543,7 +552,7 @@ In practice, trajectory optimization with contact constraints uses these to enfo
 - This gives asymptotic optimality.
 - Lazy PRM defers edge collision checking until query time.
 
-**Takeaway:** PRM is a multi-query planner, so the upfront roadmap cost is useful when many queries will reuse the same environment.`
+**Takeaway:** PRM is a multi-query planner, so the upfront roadmap cost is useful when many queries will reuse the same environment.
 
 ## Images
 ![PRM1]
@@ -653,7 +662,24 @@ The integral term eliminates steady-state error (e.g., from constant external fo
 
 **Whole Body Control (WBC):** Formulate a QP at each step with objectives for COM tracking, end-effector tracking, and contact constraints.
 
-**Model Predictive Control (MPC):** Solve a short-horizon trajectory optimization at each time step, execute first action, re-solve. Combines planning and feedback.`
+**Model Predictive Control (MPC):** Solve a short-horizon trajectory optimization at each time step, execute first action, re-solve. Combines planning and feedback.
+
+## Control Slides
+![c1]
+
+![c2]
+
+![c3]
+
+![c4]
+
+![c5]
+
+![c6]
+
+![c7]
+
+![c8]`
       }
     ]
   },
@@ -1243,6 +1269,14 @@ function renderContent(text) {
     PRM12: PRM12,
     PRM13: PRM13,
     PRM14: PRM14,
+    c1: c1,
+    c2: c2,
+    c3: c3,
+    c4: c4,
+    c5: c5,
+    c6: c6,
+    c7: c7,
+    c8: c8,
   };
 
   const flushTable = () => {
