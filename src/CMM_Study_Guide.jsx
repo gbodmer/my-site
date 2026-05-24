@@ -31,6 +31,27 @@ import to14 from "./assets/trajectoryoptimization14.png";
 import to15 from "./assets/trajectoryoptimization15.png";
 import to16 from "./assets/trajectoryoptimization16.png";
 import to17 from "./assets/trajectoryoptimization17.png";
+import TO1 from "./assets/TO1.png";
+import TO2 from "./assets/TO2.png";
+import TO3 from "./assets/TO3.png";
+import TO4 from "./assets/TO4.png";
+import TO5 from "./assets/TO5.png";
+import TO6 from "./assets/TO6.png";
+import TO7 from "./assets/TO7.png";
+import TO8 from "./assets/TO8.png";
+import TO9 from "./assets/TO9.png";
+import TO10 from "./assets/TO10.png";
+import TO11 from "./assets/TO11.png";
+import TO12 from "./assets/TO12.png";
+import TO13 from "./assets/TO13.png";
+import TO14 from "./assets/TO14.png";
+import TO15 from "./assets/TO15.png";
+import TO16 from "./assets/TO16.png";
+import TO17 from "./assets/TO17.png";
+import TO18 from "./assets/TO18.png";
+import TO19 from "./assets/TO19.png";
+import TO20 from "./assets/TO20.png";
+import TO21 from "./assets/TO21.png";
 
 
 const topics = [
@@ -380,6 +401,51 @@ Where:
 
 ![to17]`
       },
+{
+  title: "Images",
+  content: `![TO1]
+
+![TO2]
+
+![TO3]
+
+![TO4]
+
+![TO5]
+
+![TO6]
+
+![TO7]
+
+![TO8]
+
+![TO9]
+
+![TO10]
+
+![TO11]
+
+![TO12]
+
+![TO13]
+
+![TO14]
+
+![TO15]
+
+![TO16]
+
+![TO17]
+
+![TO18]
+
+![TO19]
+
+![TO20]
+
+![TO21]`
+}
+
       {
         title: "Transcription Methods",
         content: `**Direct Transcription:**
@@ -1086,6 +1152,11 @@ function renderContent(text) {
     to15: to15,
     to16: to16,
     to17: to17
+    TO1: TO1, TO2: TO2, TO3: TO3, TO4: TO4, TO5: TO5,
+    TO6: TO6, TO7: TO7, TO8: TO8, TO9: TO9, TO10: TO10,
+    TO11: TO11, TO12: TO12, TO13: TO13, TO14: TO14, TO15: TO15,
+    TO16: TO16, TO17: TO17, TO18: TO18, TO19: TO19, TO20: TO20,
+    TO21: TO21,
   };
 
   const flushTable = () => {
