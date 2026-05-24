@@ -129,7 +129,6 @@ where x̄ is the point in local frame, p is the origin of the local frame in wor
 
 **File formats:** FBX/DAE (CG), URDF/SDF (robotics)`
       },
-
       {
         title: "Transformation Matrix",
         content: `Transformation matrices combine rotation and translation into a single homogeneous matrix useful for composing transforms and transforming points.
@@ -401,9 +400,9 @@ Where:
 
 ![to17]`
       },
-{
-  title: "Images",
-  content: `![TO1]
+      {
+        title: "Images",
+        content: `![TO1]
 
 ![TO2]
 
@@ -444,8 +443,7 @@ Where:
 ![TO20]
 
 ![TO21]`
-},
-
+      },
       {
         title: "Transcription Methods",
         content: `**Direct Transcription:**
@@ -1110,7 +1108,6 @@ function TopicCard({ topic, isActive, onClick }) {
 }
 
 function renderContent(text) {
-  // Simple markdown-like renderer
   const lines = text.split("\n");
   const elements = [];
   let inTable = false;
@@ -1151,11 +1148,27 @@ function renderContent(text) {
     to14: to14,
     to15: to15,
     to16: to16,
-    to17: to17
-    TO1: TO1, TO2: TO2, TO3: TO3, TO4: TO4, TO5: TO5,
-    TO6: TO6, TO7: TO7, TO8: TO8, TO9: TO9, TO10: TO10,
-    TO11: TO11, TO12: TO12, TO13: TO13, TO14: TO14, TO15: TO15,
-    TO16: TO16, TO17: TO17, TO18: TO18, TO19: TO19, TO20: TO20,
+    to17: to17,
+    TO1: TO1,
+    TO2: TO2,
+    TO3: TO3,
+    TO4: TO4,
+    TO5: TO5,
+    TO6: TO6,
+    TO7: TO7,
+    TO8: TO8,
+    TO9: TO9,
+    TO10: TO10,
+    TO11: TO11,
+    TO12: TO12,
+    TO13: TO13,
+    TO14: TO14,
+    TO15: TO15,
+    TO16: TO16,
+    TO17: TO17,
+    TO18: TO18,
+    TO19: TO19,
+    TO20: TO20,
     TO21: TO21,
   };
 
@@ -1203,7 +1216,6 @@ function renderContent(text) {
   while (i < lines.length) {
     const line = lines[i];
 
-    // image line handling: lines like "![transform1]" or "![transform2]"
     const imgMatch = line.trim().match(/^!\[(.+?)\]\s*$/);
     if (imgMatch) {
       const key = imgMatch[1];
