@@ -126,7 +126,25 @@ import RL49 from "./assets/RL49.png";
 import RL50 from "./assets/RL50.png";
 import RL51 from "./assets/RL51.png";
 import RL52 from "./assets/RL52.png";
-
+import TRL1 from "./assets/2_RL1.png";
+import TRL2 from "./assets/2_RL2.png";
+import TRL3 from "./assets/2_RL3.png";
+import TRL4 from "./assets/2_RL4.png";
+import TRL5 from "./assets/2_RL5.png";
+import TRL6 from "./assets/2_RL6.png";
+import TRL7 from "./assets/2_RL7.png";
+import TRL8 from "./assets/2_RL8.png";
+import TRL9 from "./assets/2_RL9.png";
+import TRL10 from "./assets/2_RL10.png";
+import TRL11 from "./assets/2_RL11.png";
+import TRL12 from "./assets/2_RL12.png";
+import TRL13 from "./assets/2_RL13.png";
+import TRL14 from "./assets/2_RL14.png";
+import TRL15 from "./assets/2_RL15.png";
+import TRL16 from "./assets/2_RL16.png";
+import TRL17 from "./assets/2_RL17.png";
+import TRL18 from "./assets/2_RL18.png";
+import TRL19 from "./assets/2_RL19.png";
 
 
 const topics = [
@@ -1037,6 +1055,47 @@ where rₜ(θ) = π_θ(a|s)/π_θ_old(a|s)
 - DeepMimic: mimic expert *states* (actions are inferred by RL → more robust)
 
 Foundation for Boston Dynamics, Unitree, and many other modern robotic systems.`
+      },
+      {
+        title: "Lecture Slides",
+        content: `## Images
+![TRL1]
+
+![TRL2]
+
+![TRL3]
+
+![TRL4]
+
+![TRL5]
+
+![TRL6]
+
+![TRL7]
+
+![TRL8]
+
+![TRL9]
+
+![TRL10]
+
+![TRL11]
+
+![TRL12]
+
+![TRL13]
+
+![TRL14]
+
+![TRL15]
+
+![TRL16]
+
+![TRL17]
+
+![TRL18]
+
+![TRL19]`
       }
     ]
   },
@@ -1447,6 +1506,10 @@ function renderContent(text) {
     RL41: RL41, RL42: RL42, RL43: RL43, RL44: RL44, RL45: RL45,
     RL46: RL46, RL47: RL47, RL48: RL48, RL49: RL49, RL50: RL50,
     RL51: RL51, RL52: RL52,
+    TRL1: TRL1, TRL2: TRL2, TRL3: TRL3, TRL4: TRL4, TRL5: TRL5,
+    TRL6: TRL6, TRL7: TRL7, TRL8: TRL8, TRL9: TRL9, TRL10: TRL10,
+    TRL11: TRL11, TRL12: TRL12, TRL13: TRL13, TRL14: TRL14, TRL15: TRL15,
+    TRL16: TRL16, TRL17: TRL17, TRL18: TRL18, TRL19: TRL19,
   };
 
   const flushTable = () => {
