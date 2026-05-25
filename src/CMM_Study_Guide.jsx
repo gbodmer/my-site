@@ -74,6 +74,58 @@ import c5 from "./assets/c5.png";
 import c6 from "./assets/c6.png";
 import c7 from "./assets/c7.png";
 import c8 from "./assets/c8.png";
+import RL1 from "./assets/RL1.png";
+import RL2 from "./assets/RL2.png";
+import RL3 from "./assets/RL3.png";
+import RL4 from "./assets/RL4.png";
+import RL5 from "./assets/RL5.png";
+import RL6 from "./assets/RL6.png";
+import RL7 from "./assets/RL7.png";
+import RL8 from "./assets/RL8.png";
+import RL9 from "./assets/RL9.png";
+import RL10 from "./assets/RL10.png";
+import RL11 from "./assets/RL11.png";
+import RL12 from "./assets/RL12.png";
+import RL13 from "./assets/RL13.png";
+import RL14 from "./assets/RL14.png";
+import RL15 from "./assets/RL15.png";
+import RL16 from "./assets/RL16.png";
+import RL17 from "./assets/RL17.png";
+import RL18 from "./assets/RL18.png";
+import RL19 from "./assets/RL19.png";
+import RL20 from "./assets/RL20.png";
+import RL21 from "./assets/RL21.png";
+import RL22 from "./assets/RL22.png";
+import RL23 from "./assets/RL23.png";
+import RL24 from "./assets/RL24.png";
+import RL25 from "./assets/RL25.png";
+import RL26 from "./assets/RL26.png";
+import RL27 from "./assets/RL27.png";
+import RL28 from "./assets/RL28.png";
+import RL29 from "./assets/RL29.png";
+import RL30 from "./assets/RL30.png";
+import RL31 from "./assets/RL31.png";
+import RL32 from "./assets/RL32.png";
+import RL33 from "./assets/RL33.png";
+import RL34 from "./assets/RL34.png";
+import RL35 from "./assets/RL35.png";
+import RL36 from "./assets/RL36.png";
+import RL37 from "./assets/RL37.png";
+import RL38 from "./assets/RL38.png";
+import RL39 from "./assets/RL39.png";
+import RL40 from "./assets/RL40.png";
+import RL41 from "./assets/RL41.png";
+import RL42 from "./assets/RL42.png";
+import RL43 from "./assets/RL43.png";
+import RL44 from "./assets/RL44.png";
+import RL45 from "./assets/RL45.png";
+import RL46 from "./assets/RL46.png";
+import RL47 from "./assets/RL47.png";
+import RL48 from "./assets/RL48.png";
+import RL49 from "./assets/RL49.png";
+import RL50 from "./assets/RL50.png";
+import RL51 from "./assets/RL51.png";
+import RL52 from "./assets/RL52.png";
 
 
 
@@ -442,7 +494,7 @@ Where:
 
 ![TO9]
 
-![TO10]
+![TO10]  
 
 ![TO11]
 
@@ -741,8 +793,115 @@ Converges because it's a contraction. Requires sweeping all states + knowing T.
 
 Converges faster but same asymptotic cost per iteration.
 
-**Limitation:** Both need full state sweep and transition model → only for small, discrete toy problems.`
+**Limitation:** Both need full state sweep and transition model → only for small, discrete toy problems.
+
+## Slides
+
+![RL1]
+
+![RL2]
+
+![RL3]
+
+![RL4]
+
+![RL5]
+
+![RL6]
+
+![RL7]
+
+![RL8]
+
+![RL9]
+
+![RL10]
+
+![RL11]
+
+![RL12]
+
+![RL13]
+
+![RL14]
+
+![RL15]
+
+![RL16]
+
+![RL17]
+
+![RL18]
+
+![RL19]
+
+![RL20]
+
+![RL21]
+
+![RL22]
+
+![RL23]
+
+![RL24]
+
+![RL25]
+
+![RL26]
+
+![RL27]
+
+![RL28]
+
+![RL29]
+
+![RL30]
+
+![RL31]
+
+![RL32]
+
+![RL33]
+
+![RL34]
+
+![RL35]
+
+![RL36]
+
+![RL37]
+
+![RL38]
+
+![RL39]
+
+![RL40]
+
+![RL41]
+
+![RL42]
+
+![RL43]
+
+![RL44]
+
+![RL45]
+
+![RL46]
+
+![RL47]
+
+![RL48]
+
+![RL49]
+
+![RL50]
+
+![RL51]
+
+![RL52]`
       },
+
       {
         title: "Q-Learning & DQN",
         content: `**Q-function Q*(s,a):** Expected return starting from s, taking action a, then acting optimally.
@@ -1277,6 +1436,17 @@ function renderContent(text) {
     c6: c6,
     c7: c7,
     c8: c8,
+    RL1: RL1, RL2: RL2, RL3: RL3, RL4: RL4, RL5: RL5,
+    RL6: RL6, RL7: RL7, RL8: RL8, RL9: RL9, RL10: RL10,
+    RL11: RL11, RL12: RL12, RL13: RL13, RL14: RL14, RL15: RL15,
+    RL16: RL16, RL17: RL17, RL18: RL18, RL19: RL19, RL20: RL20,
+    RL21: RL21, RL22: RL22, RL23: RL23, RL24: RL24, RL25: RL25,
+    RL26: RL26, RL27: RL27, RL28: RL28, RL29: RL29, RL30: RL30,
+    RL31: RL31, RL32: RL32, RL33: RL33, RL34: RL34, RL35: RL35,
+    RL36: RL36, RL37: RL37, RL38: RL38, RL39: RL39, RL40: RL40,
+    RL41: RL41, RL42: RL42, RL43: RL43, RL44: RL44, RL45: RL45,
+    RL46: RL46, RL47: RL47, RL48: RL48, RL49: RL49, RL50: RL50,
+    RL51: RL51, RL52: RL52,
   };
 
   const flushTable = () => {
