@@ -145,7 +145,60 @@ import TRL16 from "./assets/2_RL16.png";
 import TRL17 from "./assets/2_RL17.png";
 import TRL18 from "./assets/2_RL18.png";
 import TRL19 from "./assets/2_RL19.png";
-
+import _3_RL1 from "./assets/3_RL1.png";
+import _3_RL2 from "./assets/3_RL2.png";
+import _3_RL3 from "./assets/3_RL3.png";
+import _3_RL4 from "./assets/3_RL4.png";
+import _3_RL5 from "./assets/3_RL5.png";
+import _3_RL6 from "./assets/3_RL6.png";
+import _3_RL7 from "./assets/3_RL7.png";
+import _3_RL8 from "./assets/3_RL8.png";
+import _3_RL9 from "./assets/3_RL9.png";
+import _3_RL10 from "./assets/3_RL10.png";
+import _3_RL11 from "./assets/3_RL11.png";
+import _3_RL12 from "./assets/3_RL12.png";
+import _3_RL13 from "./assets/3_RL13.png";
+import _3_RL14 from "./assets/3_RL14.png";
+import _3_RL15 from "./assets/3_RL15.png";
+import _3_RL16 from "./assets/3_RL16.png";
+import _3_RL17 from "./assets/3_RL17.png";
+import _3_RL18 from "./assets/3_RL18.png";
+import _3_RL19 from "./assets/3_RL19.png";
+import _3_RL20 from "./assets/3_RL20.png";
+import _3_RL21 from "./assets/3_RL21.png";
+import _3_RL22 from "./assets/3_RL22.png";
+import _3_RL23 from "./assets/3_RL23.png";
+import _3_RL24 from "./assets/3_RL24.png";
+import _3_RL25 from "./assets/3_RL25.png";
+import _3_RL26 from "./assets/3_RL26.png";
+import _3_RL27 from "./assets/3_RL27.png";
+import _3_RL28 from "./assets/3_RL28.png";
+import _3_RL29 from "./assets/3_RL29.png";
+import _3_RL30 from "./assets/3_RL30.png";
+import _3_RL31 from "./assets/3_RL31.png";
+import _3_RL32 from "./assets/3_RL32.png";
+import _3_RL33 from "./assets/3_RL33.png";
+import _3_RL34 from "./assets/3_RL34.png";
+import _3_RL35 from "./assets/3_RL35.png";
+import _3_RL36 from "./assets/3_RL36.png";
+import _3_RL37 from "./assets/3_RL37.png";
+import _3_RL38 from "./assets/3_RL38.png";
+import _3_RL39 from "./assets/3_RL39.png";
+import _3_RL40 from "./assets/3_RL40.png";
+import _3_RL41 from "./assets/3_RL41.png";
+import _3_RL42 from "./assets/3_RL42.png";
+import _3_RL43 from "./assets/3_RL43.png";
+import _3_RL44 from "./assets/3_RL44.png";
+import _3_RL45 from "./assets/3_RL45.png";
+import _3_RL46 from "./assets/3_RL46.png";
+import _3_RL47 from "./assets/3_RL47.png";
+import _3_RL48 from "./assets/3_RL48.png";
+import _3_RL49 from "./assets/3_RL49.png";
+import _3_RL50 from "./assets/3_RL50.png";
+import _3_RL51 from "./assets/3_RL51.png";
+import _3_RL52 from "./assets/3_RL52.png";
+import _3_RL53 from "./assets/3_RL53.png";
+import _3_RL54 from "./assets/3_RL54.png";
 
 const topics = [
   {
@@ -1197,6 +1250,117 @@ H = entropy = "fuzziness" of policy distribution. Higher entropy → more explor
 **Challenge:** Model errors compound over planning horizons → model exploitation.
 
 **Examples:** PILCO, PETS, Dreamer. Often 10-100× more sample efficient than model-free, but harder to tune.`
+      },
+      {
+        title: "Lecture Slides",
+        content: `## Images
+![3_RL1]
+
+![3_RL2]
+
+![3_RL3]
+
+![3_RL4]
+
+![3_RL5]
+
+![3_RL6]
+
+![3_RL7]
+
+![3_RL8]
+
+![3_RL9]
+
+![3_RL10]
+
+![3_RL11]
+
+![3_RL12]
+
+![3_RL13]
+
+![3_RL14]
+
+![3_RL15]
+
+![3_RL16]
+
+![3_RL17]
+
+![3_RL18]
+
+![3_RL19]
+
+![3_RL20]
+
+![3_RL21]
+
+![3_RL22]
+
+![3_RL23]
+
+![3_RL24]
+
+![3_RL25]
+
+![3_RL26]
+
+![3_RL27]
+
+![3_RL28]
+
+![3_RL29]
+
+![3_RL30]
+
+![3_RL31]
+
+![3_RL32]
+
+![3_RL33]
+
+![3_RL34]
+
+![3_RL35]
+
+![3_RL36]
+
+![3_RL37]
+
+![3_RL38]
+
+![3_RL39]
+
+![3_RL40]
+
+![3_RL41]
+
+![3_RL42]
+
+![3_RL43]
+
+![3_RL44]
+
+![3_RL45]
+
+![3_RL46]
+
+![3_RL47]
+
+![3_RL48]
+
+![3_RL49]
+
+![3_RL50]
+
+![3_RL51]
+
+![3_RL52]
+
+![3_RL53]
+
+![3_RL54]`
       }
     ]
   },
@@ -1509,7 +1673,17 @@ function renderContent(text) {
     TRL1: TRL1, TRL2: TRL2, TRL3: TRL3, TRL4: TRL4, TRL5: TRL5,
     TRL6: TRL6, TRL7: TRL7, TRL8: TRL8, TRL9: TRL9, TRL10: TRL10,
     TRL11: TRL11, TRL12: TRL12, TRL13: TRL13, TRL14: TRL14, TRL15: TRL15,
-    TRL16: TRL16, TRL17: TRL17, TRL18: TRL18, TRL19: TRL19,
+    TRL16: TRL16, TRL17: TRL17, TRL18: TRL18, TRL19: TRL19,"3_RL1": _3_RL1, "3_RL2": _3_RL2, "3_RL3": _3_RL3, "3_RL4": _3_RL4, "3_RL5": _3_RL5,
+    "3_RL6": _3_RL6, "3_RL7": _3_RL7, "3_RL8": _3_RL8, "3_RL9": _3_RL9, "3_RL10": _3_RL10,
+    "3_RL11": _3_RL11, "3_RL12": _3_RL12, "3_RL13": _3_RL13, "3_RL14": _3_RL14, "3_RL15": _3_RL15,
+    "3_RL16": _3_RL16, "3_RL17": _3_RL17, "3_RL18": _3_RL18, "3_RL19": _3_RL19, "3_RL20": _3_RL20,
+    "3_RL21": _3_RL21, "3_RL22": _3_RL22, "3_RL23": _3_RL23, "3_RL24": _3_RL24, "3_RL25": _3_RL25,
+    "3_RL26": _3_RL26, "3_RL27": _3_RL27, "3_RL28": _3_RL28, "3_RL29": _3_RL29, "3_RL30": _3_RL30,
+    "3_RL31": _3_RL31, "3_RL32": _3_RL32, "3_RL33": _3_RL33, "3_RL34": _3_RL34, "3_RL35": _3_RL35,
+    "3_RL36": _3_RL36, "3_RL37": _3_RL37, "3_RL38": _3_RL38, "3_RL39": _3_RL39, "3_RL40": _3_RL40,
+    "3_RL41": _3_RL41, "3_RL42": _3_RL42, "3_RL43": _3_RL43, "3_RL44": _3_RL44, "3_RL45": _3_RL45,
+    "3_RL46": _3_RL46, "3_RL47": _3_RL47, "3_RL48": _3_RL48, "3_RL49": _3_RL49, "3_RL50": _3_RL50,
+    "3_RL51": _3_RL51, "3_RL52": _3_RL52, "3_RL53": _3_RL53, "3_RL54": _3_RL54,
   };
 
   const flushTable = () => {
