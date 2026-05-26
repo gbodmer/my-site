@@ -226,6 +226,118 @@ import MM24 from "./assets/motionmanifold24.png";
 import MM25 from "./assets/motionmanifold25.png";
 import MM26 from "./assets/motionmanifold26.png";
 import MM27 from "./assets/motionmanifold27.png";
+import GM1 from "./assets/generativemotion1.png";
+import GM2 from "./assets/generativemotion2.png";
+import GM3 from "./assets/generativemotion3.png";
+import GM4 from "./assets/generativemotion4.png";
+import GM5 from "./assets/generativemotion5.png";
+import GM6 from "./assets/generativemotion6.png";
+import GM7 from "./assets/generativemotion7.png";
+import GM8 from "./assets/generativemotion8.png";
+import GM9 from "./assets/generativemotion9.png";
+import GM10 from "./assets/generativemotion10.png";
+import GM11 from "./assets/generativemotion11.png";
+import GM12 from "./assets/generativemotion12.png";
+import GM13 from "./assets/generativemotion13.png";
+import GM14 from "./assets/generativemotion14.png";
+import GM15 from "./assets/generativemotion15.png";
+import GM16 from "./assets/generativemotion16.png";
+import GM17 from "./assets/generativemotion17.png";
+import GM18 from "./assets/generativemotion18.png";
+import GM19 from "./assets/generativemotion19.png";
+import GM20 from "./assets/generativemotion20.png";
+import GM21 from "./assets/generativemotion21.png";
+import GM22 from "./assets/generativemotion22.png";
+import GM23 from "./assets/generativemotion23.png";
+import GM24 from "./assets/generativemotion24.png";
+import GM25 from "./assets/generativemotion25.png";
+import GM26 from "./assets/generativemotion26.png";
+import GM27 from "./assets/generativemotion27.png";
+import GM28 from "./assets/generativemotion28.png";
+import GM29 from "./assets/generativemotion29.png";
+import GM30 from "./assets/generativemotion30.png";
+import GM31 from "./assets/generativemotion31.png";
+import GM32 from "./assets/generativemotion32.png";
+import GM33 from "./assets/generativemotion33.png";
+import GM34 from "./assets/generativemotion34.png";
+import GM35 from "./assets/generativemotion35.png";
+import GM36 from "./assets/generativemotion36.png";
+import GM37 from "./assets/generativemotion37.png";
+import GM38 from "./assets/generativemotion38.png";
+import GM39 from "./assets/generativemotion39.png";
+import GM40 from "./assets/generativemotion40.png";
+import GM41 from "./assets/generativemotion41.png";
+import GM42 from "./assets/generativemotion42.png";
+import GM43 from "./assets/generativemotion43.png";
+import GM44 from "./assets/generativemotion44.png";
+import GM45 from "./assets/generativemotion45.png";
+import GM46 from "./assets/generativemotion46.png";
+import GM47 from "./assets/generativemotion47.png";
+import GM48 from "./assets/generativemotion48.png";
+import GM49 from "./assets/generativemotion49.png";
+import GM50 from "./assets/generativemotion50.png";
+import GM51 from "./assets/generativemotion51.png";
+import GM52 from "./assets/generativemotion52.png";
+import GM53 from "./assets/generativemotion53.png";
+import GM54 from "./assets/generativemotion54.png";
+import GM55 from "./assets/generativemotion55.png";
+import GM56 from "./assets/generativemotion56.png";
+import GM57 from "./assets/generativemotion57.png";
+import GM58 from "./assets/generativemotion58.png";
+import GM59 from "./assets/generativemotion59.png";
+import GM60 from "./assets/generativemotion60.png";
+import GM61 from "./assets/generativemotion61.png";
+import GM62 from "./assets/generativemotion62.png";
+import GM63 from "./assets/generativemotion63.png";
+import GM64 from "./assets/generativemotion64.png";
+import GM65 from "./assets/generativemotion65.png";
+import GM66 from "./assets/generativemotion66.png";
+import GM67 from "./assets/generativemotion67.png";
+import GM68 from "./assets/generativemotion68.png";
+import GM69 from "./assets/generativemotion69.png";
+import GM70 from "./assets/generativemotion70.png";
+import GM71 from "./assets/generativemotion71.png";
+import GM72 from "./assets/generativemotion72.png";
+import GM73 from "./assets/generativemotion73.png";
+import GM74 from "./assets/generativemotion74.png";
+import GM75 from "./assets/generativemotion75.png";
+import GM76 from "./assets/generativemotion76.png";
+import GM77 from "./assets/generativemotion77.png";
+import GM78 from "./assets/generativemotion78.png";
+import GM79 from "./assets/generativemotion79.png";
+import GM80 from "./assets/generativemotion80.png";
+import GM81 from "./assets/generativemotion81.png";
+import GM82 from "./assets/generativemotion82.png";
+import GM83 from "./assets/generativemotion83.png";
+import GM84 from "./assets/generativemotion84.png";
+import GM85 from "./assets/generativemotion85.png";
+import GM86 from "./assets/generativemotion86.png";
+import GM87 from "./assets/generativemotion87.png";
+import GM88 from "./assets/generativemotion88.png";
+import GM89 from "./assets/generativemotion89.png";
+import GM90 from "./assets/generativemotion90.png";
+import GM91 from "./assets/generativemotion91.png";
+import GM92 from "./assets/generativemotion92.png";
+import GM93 from "./assets/generativemotion93.png";
+import GM94 from "./assets/generativemotion94.png";
+import GM95 from "./assets/generativemotion95.png";
+import GM96 from "./assets/generativemotion96.png";
+import GM97 from "./assets/generativemotion97.png";
+import GM98 from "./assets/generativemotion98.png";
+import GM99 from "./assets/generativemotion99.png";
+import GM100 from "./assets/generativemotion100.png";
+import GM101 from "./assets/generativemotion101.png";
+import GM102 from "./assets/generativemotion102.png";
+import GM103 from "./assets/generativemotion103.png";
+import GM104 from "./assets/generativemotion104.png";
+import GM105 from "./assets/generativemotion105.png";
+import GM106 from "./assets/generativemotion106.png";
+import GM107 from "./assets/generativemotion107.png";
+import GM108 from "./assets/generativemotion108.png";
+import GM109 from "./assets/generativemotion109.png";
+import GM110 from "./assets/generativemotion110.png";
+import GM111 from "./assets/generativemotion111.png";
+import GM112 from "./assets/generativemotion112.png";
 
 const topics = [
   {
@@ -1639,6 +1751,233 @@ The KL term forces the latent space to be close to a standard Gaussian → smoot
 - **Motion in-betweening / inpainting:** fill gaps between keyframes
 - **Motion editing:** modify specific attributes (text-driven)
 - **Stylization:** transfer motion style across characters`
+      },
+      {
+        title: "Lecture Slides",
+        content: `## Images
+![GM1]
+
+![GM2]
+
+![GM3]
+
+![GM4]
+
+![GM5]
+
+![GM6]
+
+![GM7]
+
+![GM8]
+
+![GM9]
+
+![GM10]
+
+![GM11]
+
+![GM12]
+
+![GM13]
+
+![GM14]
+
+![GM15]
+
+![GM16]
+
+![GM17]
+
+![GM18]
+
+![GM19]
+
+![GM20]
+
+![GM21]
+
+![GM22]
+
+![GM23]
+
+![GM24]
+
+![GM25]
+
+![GM26]
+
+![GM27]
+
+![GM28]
+
+![GM29]
+
+![GM30]
+
+![GM31]
+
+![GM32]
+
+![GM33]
+
+![GM34]
+
+![GM35]
+
+![GM36]
+
+![GM37]
+
+![GM38]
+
+![GM39]
+
+![GM40]
+
+![GM41]
+
+![GM42]
+
+![GM43]
+
+![GM44]
+
+![GM45]
+
+![GM46]
+
+![GM47]
+
+![GM48]
+
+![GM49]
+
+![GM50]
+
+![GM51]
+
+![GM52]
+
+![GM53]
+
+![GM54]
+
+![GM55]
+
+![GM56]
+
+![GM57]
+
+![GM58]
+
+![GM59]
+
+![GM60]
+
+![GM61]
+
+![GM62]
+
+![GM63]
+
+![GM64]
+
+![GM65]
+
+![GM66]
+
+![GM67]
+
+![GM68]
+
+![GM69]
+
+![GM70]
+
+![GM71]
+
+![GM72]
+
+![GM73]
+
+![GM74]
+
+![GM75]
+
+![GM76]
+
+![GM77]
+
+![GM78]
+
+![GM79]
+
+![GM80]
+
+![GM81]
+
+![GM82]
+
+![GM83]
+
+![GM84]
+
+![GM85]
+
+![GM86]
+
+![GM87]
+
+![GM88]
+
+![GM89]
+
+![GM90]
+
+![GM91]
+
+![GM92]
+
+![GM93]
+
+![GM94]
+
+![GM95]
+
+![GM96]
+
+![GM97]
+
+![GM98]
+
+![GM99]
+
+![GM100]
+
+![GM101]
+
+![GM102]
+
+![GM103]
+
+![GM104]
+
+![GM105]
+
+![GM106]
+
+![GM107]
+
+![GM108]
+
+![GM109]
+
+![GM110]
+
+![GM111]
+
+![GM112]`
       }
     ]
   }
@@ -1774,6 +2113,29 @@ function renderContent(text) {
     MM16: MM16, MM17: MM17, MM18: MM18, MM19: MM19, MM20: MM20,
     MM21: MM21, MM22: MM22, MM23: MM23, MM24: MM24, MM25: MM25,
     MM26: MM26, MM27: MM27,
+    GM1: GM1, GM2: GM2, GM3: GM3, GM4: GM4, GM5: GM5,
+    GM6: GM6, GM7: GM7, GM8: GM8, GM9: GM9, GM10: GM10,
+    GM11: GM11, GM12: GM12, GM13: GM13, GM14: GM14, GM15: GM15,
+    GM16: GM16, GM17: GM17, GM18: GM18, GM19: GM19, GM20: GM20,
+    GM21: GM21, GM22: GM22, GM23: GM23, GM24: GM24, GM25: GM25,
+    GM26: GM26, GM27: GM27, GM28: GM28, GM29: GM29, GM30: GM30,
+    GM31: GM31, GM32: GM32, GM33: GM33, GM34: GM34, GM35: GM35,
+    GM36: GM36, GM37: GM37, GM38: GM38, GM39: GM39, GM40: GM40,
+    GM41: GM41, GM42: GM42, GM43: GM43, GM44: GM44, GM45: GM45,
+    GM46: GM46, GM47: GM47, GM48: GM48, GM49: GM49, GM50: GM50,
+    GM51: GM51, GM52: GM52, GM53: GM53, GM54: GM54, GM55: GM55,
+    GM56: GM56, GM57: GM57, GM58: GM58, GM59: GM59, GM60: GM60,
+    GM61: GM61, GM62: GM62, GM63: GM63, GM64: GM64, GM65: GM65,
+    GM66: GM66, GM67: GM67, GM68: GM68, GM69: GM69, GM70: GM70,
+    GM71: GM71, GM72: GM72, GM73: GM73, GM74: GM74, GM75: GM75,
+    GM76: GM76, GM77: GM77, GM78: GM78, GM79: GM79, GM80: GM80,
+    GM81: GM81, GM82: GM82, GM83: GM83, GM84: GM84, GM85: GM85,
+    GM86: GM86, GM87: GM87, GM88: GM88, GM89: GM89, GM90: GM90,
+    GM91: GM91, GM92: GM92, GM93: GM93, GM94: GM94, GM95: GM95,
+    GM96: GM96, GM97: GM97, GM98: GM98, GM99: GM99, GM100: GM100,
+    GM101: GM101, GM102: GM102, GM103: GM103, GM104: GM104, GM105: GM105,
+    GM106: GM106, GM107: GM107, GM108: GM108, GM109: GM109, GM110: GM110,
+    GM111: GM111, GM112: GM112,
   };
 
   const flushTable = () => {
