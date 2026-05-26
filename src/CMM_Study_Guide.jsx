@@ -199,6 +199,33 @@ import _3_RL51 from "./assets/3_RL51.png";
 import _3_RL52 from "./assets/3_RL52.png";
 import _3_RL53 from "./assets/3_RL53.png";
 import _3_RL54 from "./assets/3_RL54.png";
+import MM1 from "./assets/motionmanifold1.png";
+import MM2 from "./assets/motionmanifold2.png";
+import MM3 from "./assets/motionmanifold3.png";
+import MM4 from "./assets/motionmanifold4.png";
+import MM5 from "./assets/motionmanifold5.png";
+import MM6 from "./assets/motionmanifold6.png";
+import MM7 from "./assets/motionmanifold7.png";
+import MM8 from "./assets/motionmanifold8.png";
+import MM9 from "./assets/motionmanifold9.png";
+import MM10 from "./assets/motionmanifold10.png";
+import MM11 from "./assets/motionmanifold11.png";
+import MM12 from "./assets/motionmanifold12.png";
+import MM13 from "./assets/motionmanifold13.png";
+import MM14 from "./assets/motionmanifold14.png";
+import MM15 from "./assets/motionmanifold15.png";
+import MM16 from "./assets/motionmanifold16.png";
+import MM17 from "./assets/motionmanifold17.png";
+import MM18 from "./assets/motionmanifold18.png";
+import MM19 from "./assets/motionmanifold19.png";
+import MM20 from "./assets/motionmanifold20.png";
+import MM21 from "./assets/motionmanifold21.png";
+import MM22 from "./assets/motionmanifold22.png";
+import MM23 from "./assets/motionmanifold23.png";
+import MM24 from "./assets/motionmanifold24.png";
+import MM25 from "./assets/motionmanifold25.png";
+import MM26 from "./assets/motionmanifold26.png";
+import MM27 from "./assets/motionmanifold27.png";
 
 const topics = [
   {
@@ -1454,6 +1481,63 @@ The KL term forces the latent space to be close to a standard Gaussian → smoot
 - VQ-VAE discretizes motion into codebook tokens
 - Scalable discrete motion representation for unified physics-based control
 - Language-model-style token prediction for motion planning`
+      },
+      {
+        title: "Lecture Slides",
+        content: `## Images
+![MM1]
+
+![MM2]
+
+![MM3]
+
+![MM4]
+
+![MM5]
+
+![MM6]
+
+![MM7]
+
+![MM8]
+
+![MM9]
+
+![MM10]
+
+![MM11]
+
+![MM12]
+
+![MM13]
+
+![MM14]
+
+![MM15]
+
+![MM16]
+
+![MM17]
+
+![MM18]
+
+![MM19]
+
+![MM20]
+
+![MM21]
+
+![MM22]
+
+![MM23]
+
+![MM24]
+
+![MM25]
+
+![MM26]
+
+![MM27]`
       }
     ]
   },
@@ -1684,6 +1768,12 @@ function renderContent(text) {
     "3_RL41": _3_RL41, "3_RL42": _3_RL42, "3_RL43": _3_RL43, "3_RL44": _3_RL44, "3_RL45": _3_RL45,
     "3_RL46": _3_RL46, "3_RL47": _3_RL47, "3_RL48": _3_RL48, "3_RL49": _3_RL49, "3_RL50": _3_RL50,
     "3_RL51": _3_RL51, "3_RL52": _3_RL52, "3_RL53": _3_RL53, "3_RL54": _3_RL54,
+    MM1: MM1, MM2: MM2, MM3: MM3, MM4: MM4, MM5: MM5,
+    MM6: MM6, MM7: MM7, MM8: MM8, MM9: MM9, MM10: MM10,
+    MM11: MM11, MM12: MM12, MM13: MM13, MM14: MM14, MM15: MM15,
+    MM16: MM16, MM17: MM17, MM18: MM18, MM19: MM19, MM20: MM20,
+    MM21: MM21, MM22: MM22, MM23: MM23, MM24: MM24, MM25: MM25,
+    MM26: MM26, MM27: MM27,
   };
 
   const flushTable = () => {
